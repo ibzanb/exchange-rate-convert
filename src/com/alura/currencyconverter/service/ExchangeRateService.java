@@ -10,7 +10,7 @@ import java.net.http.HttpResponse;
 import java.util.Map;
 
 public class ExchangeRateService {
-    String apiKey = "YOUR-APIKEY"; // Ingresa la APIKEY de ExchangeRate-API
+    String apiKey = "6dbf85ff"; // Ingresa la APIKEY de ExchangeRate-API
     public Map<String, Double> getAvailableCurrencies(String baseCurrency) throws Exception {
         URI uri = URI.create("https://v6.exchangerate-api.com/v6/" + apiKey + "/latest/" + baseCurrency);
 
